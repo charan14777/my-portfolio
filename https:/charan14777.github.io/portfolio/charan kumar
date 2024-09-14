@@ -21,7 +21,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(0, 0,0,0.5);
+        background-color: rgb(201, 237, 23);
         position: sticky;
         top: 0;
     }
@@ -53,11 +53,12 @@
         display: flex;
         flex-direction: column;
         background-color: none;
-        height: 1000PX;
+        height: 200PX;
         justify-content:center;
         align-items:center;
         color:maroon;
         font-size: x-large;
+        margin-bottom: 455px;
     }
     #home::before{
         content: "";
@@ -70,14 +71,16 @@
         z-index: -1;
         opacity: .8;
     }
-    .main{
+    .Main{
         display: flex;
         flex-direction: column;
         border: 1px solid white;
         align-items: center;
         position: absolute;
-        top: 30%;
-        right: 10%;
+        top: 20%;
+        right: 40%;
+        margin-top: 250px;
+        margin-bottom: 100px;
     }
     .headings{
         font-family: century;
@@ -102,12 +105,13 @@
     }
 
     /*About Selection */
-    about{
+    #about{
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
         padding: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
+        margin-top: 10px;
     }
     #pic{
         display: flex;
@@ -115,12 +119,17 @@
     #pic img{
         width: 575px;
         height: 400px;
+        border-radius: 750px;
+        margin-bottom: 20px;
+        margin-top: 40px;
     }
     #intro{
         display: flex;
         flex-direction: column;
         text-align: justify;
         padding: 10px;
+        margin-top: 70px;
+        margin-left: 150px;
     }
     #intro h2{
         font-size: 2rem;
@@ -135,6 +144,7 @@
         color: white;
         align-items: center;
         padding: 20px;
+        margin-bottom: 50px;
 
     }
     .gallery{
@@ -142,18 +152,22 @@
         flex-wrap: wrap;
         justify-content: space-around;
         box-sizing: border-box;
+        margin-bottom: 100px;
     }
     .gallery img{
-        width: 200px;
-        height: 240px;
+        width: 250px;
+        height: 320px;
         margin: 10px;
+        border-radius: 15px;
     }
 
     /* Skills Section */
-    #skills{
+    #Skills{
         display: flex;
         flex-direction: column;
         padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px; 
     }
     .row{
         display: flex;
@@ -169,21 +183,51 @@
         text-align: justify;
         padding: 10px;
         border-radius: 15px;
-        background: linear-gradient(to top, rgb(76, 45, 255) 50%, white 50%);
+        background: linear-gradient(to top, rgb(17, 27, 214) 50%, white 50%);
         background-size: 100% 200%;
         transition: all .8s;
-    }
-    .box:hover{
+    }   
+    /* .box1:hover{
         background-position: left bottom;
         color: wheat;
         border: none;
         box-shadow: 0 0 20px blue;
+        .box{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 450px;
+        border: 1px solid black;
+        margin: 10px;
+        align-items: center;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 15px;
+        background: linear-gradient(to top, rgb(76, 45, 255) 50%, white 50%);
+        background-size: 100% 200%;
+        transition: all .8s;
+    }
+    .box1:hover{
+        background-position: left bottom;
+        color: wheat;
+        border: none;
+        box-shadow: 0 0 20px rgb(216, 9, 126);
+    } */
+    .box:hover{
+        background-position: left bottom;
+        color: wheat;
+        border: none;
+        box-shadow: 0 0 20px rgb(227, 25, 196);
     }
     .box image{
         width: 80px;
         height: 80px;
         background-color: white;
         padding: 10px;
+    }
+    .new{
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 
     /* contact section */
@@ -193,6 +237,7 @@
         box-sizing: border-box;
         background-color:black;
         color: white;
+        margin-top: 50px;
     }
     .form{
         display: flex;
@@ -207,6 +252,7 @@
         width: 30%;
         border:none;
         outline: none;
+        border-radius: 10px;
     }
     footer p {
         text-align: center;
@@ -379,6 +425,7 @@
         font-weight:600
         }
     }
+   
 </style>
 <body>
     <nav class="navbar">
@@ -406,14 +453,18 @@
                 <img src="https://res.cloudinary.com/dxvsawtre/image/upload/v1661837236/1661837168272_iuquzv.jpg" alt="">
                 <div id="intro">
                     <h2>CHARAN KUMAR </h2>
-                    <P>HELLO GUYS ,This is CHARAN KUMAR ,I am from PRODDATUR ,ANDHRA PRADESH.
-                        I'studying in VIT-AP university.I choose SOFTWARE  ENGINEERING
-                        in integrated mtech
-                        Strengths: I am Self motivated,hard working and a well mannered  person.my Hobbies are
-                        Listening to music, pencil sketches and paintings etc... 
-                                  I was recently joined in CSI club.I'm Very happy to be a part in CSI Chapter.                     
-
-                    </P>
+                    <P>Hello Peps, I'm N.Charan kumar, Currently Persuing Integreted M-Tech at VIT-AP University.<br>
+                        I am Self motivated,hard working and a well mannered person.<br>
+                        my Hobbies are Listening to music, Playing Chess,Watching Cricket etc...
+                    </P>               
+                    <p><PRE>
+                        <h2>Academic Information</h2>
+                        <h3>M-TECH  9.07 CGPA</h3>
+                        <h3>iNTER   9.01 %</h3>
+                        <H3>SSC     9.7 GPA</H3>
+                    </PRE>
+                    </p>
+                    
                 </div>
             </div>
         </section>
@@ -427,25 +478,40 @@
             </div>
         </section>
 
-        <section id="services">
+        <section id="Skills">
             <h1 class="headings">SKILLS</h1>
             <div class="row">
                 <div class="box">
-                    <h1 class="headings">MY SKILLS</h1>
-                    <p>i have good communication skills, I have technical knowledge,
+                    <h1 class="headings">Web Development</h1>
+                    <p>I have good communication skills, I have technical knowledge,
                         I know HTML and CSS ,I have knowledge in MS office.I have Video Editing,
                         photo Editing skills. I am more intrested to know more things about technology.I have
                         good knowledge in python</p>
                     </div>
+                    <div class="box">
+                        <h1 class="headings">Problem Solving</h1>
+                        <p>Problem solving involves identifying a challenge and finding effective solutions to address it. It typically starts with understanding the issue, gathering relevant information, and generating possible solutions. Critical thinking and creativity are key to evaluating these solutions and selecting the most viable one. Implementing the chosen solution and assessing its impact complete the process, allowing for adjustments as needed. </p>
+                        </div>
+                        <div class="box">
+                            <h1 class="headings">DSA</h1>
+                            <p>Data Structures and Algorithms (DSA) with Java focuses on using the Java programming language to solve complex computational problems efficiently. Java provides a rich set of built-in data structures, such as arrays, linked lists, and hash maps, which are essential for implementing various algorithms. Understanding DSA in Java involves learning how to utilize these structures to optimize performance and resource management.</p>
+                            </div>
+                            <div class="box">
+                                <h1 class="headings">Leadership & Community Engagement</h1>
+                                <p>I have worked as a socialmedia lead at ACM Sudent Chapter,VIT-AP.I am good at managing teams to work on a paticular project. and i will be participating in all the community engagement activities. </p>
+                                </div>
         </section>
 
         <section id="contact">
-            <h1 class="heading">CONTACT</h1>
+            <div class="new">            <h1 class="heading"><center>CONTACT</center></h1>
             <form action=""class="form">
-                <input type="text" name="name" class="input" placeholder="charan kumar-6305262311">
+                <input type="text"  name="name" class="input" placeholder="Mobile no-6305262311">
                 <input type="email" name="email" class="input" placeholder="nunnacharankumar88@gmail.com">
-
+                <input type="insta" name="insta" class="input" placeholder="Instagram - Charan Kumar Nunna">
+                <input type="github" name="github" class="input" placeholder="github- Charan14777">
             </form>
+        </div>
+
         </section>
 
         <footer>
@@ -457,11 +523,12 @@
 
             <p>Charan kumar Nunna</p>
         </footer>
-        <footer class="site-footer" id="contact">
+        <footer class="site-footer" >
             <div class="container">
                   <ul class="social-icons">
-                    <li><a class="instagram" href="https://www.instagram.com/yours_heart_reader/?igshid=YmMyMTA2M2Y%3D"><i class="fa fa-facebook"></i></a></li>
-                    
+                    <li><a class="instagram" href="https://www.instagram.com/yours_heart_reader/?igshid=YmMyMTA2M2Y%3D"><i class="fa fa-instagram"></i></a></li>
+                    <li><a class="github" href="https://github.com/charan14777?tab=repositories"><i class="fa fa-github"></i></a></li>
+                    <li><a class="github" href="https://www.linkedin.com/in/nunna-charan-kumar-18aa0b258"><i class="fa fa-linkedin"></i></a></li>
                     
                     
                   </ul>
